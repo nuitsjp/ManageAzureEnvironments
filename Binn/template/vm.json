@@ -1,0 +1,84 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "diskId": {
+            "value": null
+        },
+        "location": {
+            "value": "japaneast"
+        },
+        "networkInterfaceName": {
+            "value": null
+        },
+        "networkSubscriptionId": {
+            "value": "fc7753ed-2e69-4202-bb66-86ff5798b8d5"
+        },
+        "networkResourceGroupName": {
+            "value": "rg-arm-template-study-dev-japaneast-company"
+        },
+        "networkSecurityGroupName": {
+            "value": "ARM-TEMPLATE-nsg"
+        },
+        "publicIpAddressName": {
+            "value": null
+        },
+        "publicIpAddressType": {
+            "value": "Static"
+        },
+        "publicIpAddressSku": {
+            "value": "Standard"
+        },
+        "pipDeleteOption": {
+            "value": "Delete"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "virtualNetworkName": {
+            "value": "ARM-TEMPLATE-vnet"
+        },
+        "virtualMachineName": {
+            "value": null
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "osDiskDeleteOption": {
+            "value": "Delete"
+        },
+        "nicDeleteOption": {
+            "value": "Delete"
+        },
+        "hibernationEnabled": {
+            "value": false
+        },
+        "securityType": {
+            "value": "TrustedLaunch"
+        },
+        "secureBoot": {
+            "value": true
+        },
+        "vTPM": {
+            "value": true
+        },
+        "autoShutdownStatus": {
+            "value": "Enabled"
+        },
+        "autoShutdownTime": {
+            "value": "17:30"
+        },
+        "autoShutdownTimeZone": {
+            "value": "Tokyo Standard Time"
+        },
+        "autoShutdownNotificationStatus": {
+            "value": "Disabled"
+        },
+        "autoShutdownNotificationLocale": {
+            "value": "ja"
+        },
+        "autoShutdownNotificationEmail": {
+            "value": ""
+        }
+    }
+}
